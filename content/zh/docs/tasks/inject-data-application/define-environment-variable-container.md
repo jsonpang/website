@@ -115,7 +115,14 @@ spec:
 Upon creation, the command `echo Warm greetings to The Most Honorable Kubernetes` is run on the container.
 -->
 创建后，命令 `echo Warm greetings to The Most Honorable Kubernetes` 将在容器中运行。
-
+```shell
+    kubectl logs print-greeting
+```
+  打印结果应为：
+    
+    ```shell
+   Warm greetings to The Most Honorable Kubernetes
+    ```
 {{% /capture %}}
 
 {{% capture whatsnext %}}
